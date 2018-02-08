@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ETHSample</string>
+
+    <string name="fab_gen_new">Generate New Wallet</string>
+    <string name="fab_send">Send</string>
+    <string name="generate_text">You are about to generate a new and encrypted offline wallet on this device. We recommend choosing a strong password in order to be able to ensure the best security possible for your funds. Please note that generating a strong and secure wallet is a highly compute-intensive task that can take up to several minutes! This process will be performed in the background so you can still use your phone as you usually would in the meantime. The progress is displayed in the notification bar of your device and as soon as we have finished generating your wallet, we will let you know.</string>
+
+    <string name="prompt_email">Password</string>
+    <string name="prompt_password">Confirm Password</string>
+    <string name="action_sign_in">Generate</string>
+
+    <string name="error_invalid_password">This password is too short (Min: 9)</string>
+    <string name="error_invalid_input">The input is null</string>
+    <string name="error_incorrect_password">Passwords do not match</string>
+
+    <string name="dialog_write_down_pw_title">Important!</string>
+    <string name="dialog_write_down_pw_text">Lunary will encrypt your Wallet with the password your provided to keep your ether safe. Your password is literally the only way to unlock your wallet and spend your ether, so make sure you dont forget it! We suggest to write it down on a piece of paper.</string>
+    <string name="dialog_back_button">Cancel</string>
+
+    <string name="wallet_one_at_a_time">Not So Fast</string>
+    <string name="wallet_one_at_a_time_text">We are currently generating a wallet for you, you can see the progress in your notification bar. Don\'t worry, we will notify you as soon as your wallet generation is finished :-) If you really wish to generate another one please wait for the current wallet to be completed first.</string>
+    <string name="button_ok">OK</string>
+
+    <string name="notification_wallgen_title">Generating Wallet…</string>
+    <string name="notification_wallgen_finished">Wallet Creation Finished!</string>
+    <string name="wallet_gen_service_title">Generating New Wallet</string>
+    <string name="notification_click_to_view">Click to view</string>
+    <string name="notification_wallgen_maytake">This may take a couple minutes</string>
+
+    <string name="ethereum_client">ethereum client</string>
+    <string name="to_address">To Address</string>
+    <string name="from_address">From Address</string>
+    <string name="action_transfer">Transfer</string>
+    <string name="prompt_amount">Amount</string>
+
+    <string name="password_in_clear_text">Show Password in clear text</string>
+    <string name="notification_transferingticker">Transferring Ether…</string>
+    <string name="notification_transfering_title">Transferring Ether</string>
+    <string name="notification_might_take_a_minute">This might take a minute</string>
+
+    <string name="notification_transfersuc">Transfer successful</string>
+    <string name="notification_transferfail">Transfer Failed</string>
+</resources>
